@@ -13,7 +13,7 @@ This sample extension:
 
 ## Compile package and dependencies
 
-To run this example, you will need to ensure that your build architecture matches that of the Lambda execution environment by compiling with `GOOS=linux` and `GOARCH=amd64` if you are not running in a Linux environment.
+To run this example, you will need to ensure that your build architecture matches that of the Lambda execution environment by compiling with `GOOS=linux` and `GOARCH=amd64` if you are running in a Linux environment.
 
 Building and saving package into a `bin/extensions` directory:
 ```bash
